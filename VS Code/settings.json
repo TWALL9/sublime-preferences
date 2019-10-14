@@ -1,7 +1,6 @@
 {
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
-    "gitlab.instanceUrl": "https://git.geotab.com",
     "C_Cpp.updateChannel": "Insiders",
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "editor.formatOnPaste": true,
