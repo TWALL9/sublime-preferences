@@ -26,14 +26,10 @@
     },
     {
         "key": "ctrl+'",
-        "command": "workbench.action.terminal.focus"
+        "command": "workbench.action.terminal.toggleTerminal"
     },
     {
         "key": "ctrl+shift+'",
         "command": "workbench.action.focusActiveEditorGroup"
     },
-    {
-        "key": "shift+f12",
-        "command": "editor.action.goToImplementation"
-    }
 ]

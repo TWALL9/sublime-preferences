@@ -2,13 +2,18 @@
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
     "C_Cpp.updateChannel": "Insiders",
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "editor.formatOnPaste": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
-    "workbench.colorTheme": "Monokai Pro",
     "window.zoomLevel": 0,
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "editor.fontSize": 16,
-    "workbench.iconTheme": "Monokai Pro Icons"
+    "editor.fontSize": 14,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "C_Cpp.dimInactiveRegions": false,
+    "zenMode.centerLayout": false,
+    "zenMode.hideLineNumbers": false,
+    "editor.minimap.showSlider": "always",
+    "workbench.activityBar.visible": true,
+    "liveshare.connectionMode": "direct",
+    "explorer.confirmDelete": false
 }
