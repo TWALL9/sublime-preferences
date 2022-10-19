@@ -25,11 +25,61 @@
         "command": "workbench.action.navigateForward"
     },
     {
+        "key": "ctrl+alt+down",
+        "command": "editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+up",
+        "command": "editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
         "key": "ctrl+'",
-        "command": "workbench.action.terminal.toggleTerminal"
+        "command": "workbench.action.terminal.focus",
+        "when": "!terminalFocus"
+    },
+    {
+        "key":"ctrl+'",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.terminal.new",
+        "when": "terminalFocus"
     },
     {
         "key": "ctrl+shift+'",
         "command": "workbench.action.focusActiveEditorGroup"
     },
+    {
+        "key": "shift+f12",
+        "command": "editor.action.goToImplementation"
+    },
+    {
+        "key": "shift+f7",
+        "command": "workbench.action.debug.stepOut",
+        "when": "debugState == 'stopped'"
+    },
+    {
+        "key": "f7",
+        "command": "workbench.action.debug.stepInto",
+        "when": "debugState == 'stopped'"
+    },
+    {
+        "key": "f8",
+        "command": "workbench.action.debug.stepOver",
+        "when": "debugState == 'stopped'"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "rust-analyzer.toggleInlayHints",
+        "when": "editorTextFocus"
+    }
 ]

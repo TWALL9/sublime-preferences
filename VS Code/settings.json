@@ -1,19 +1,44 @@
 {
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
-    "C_Cpp.updateChannel": "Insiders",
+    "window.titleBarStyle": "custom",
+    "editor.formatOnPaste": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
-    "window.zoomLevel": 0,
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "editor.fontSize": 14,
-    "workbench.colorTheme": "Visual Studio Dark",
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-    "C_Cpp.dimInactiveRegions": false,
-    "zenMode.centerLayout": false,
-    "zenMode.hideLineNumbers": false,
-    "editor.minimap.showSlider": "always",
-    "workbench.activityBar.visible": true,
-    "liveshare.connectionMode": "direct",
-    "explorer.confirmDelete": false
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontLigatures": true,
+    "python.pythonPath": "/usr/bin/python3",
+    "C_Cpp.suggestSnippets": false,
+    "C_Cpp.vcFormat.newLine.scopeBracesOnSeparateLines": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "rust-analyzer.completion.autoimport.enable": false,
+    "editor.rulers": [
+        99
+    ],
+    "editor.suggestSelection": "first",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "extensions.ignoreRecommendations": true,
+    "rust-analyzer.debug.engineSettings": {},
+    "explorer.confirmDelete": false,
+    "editor.inlayHints.enabled": "onUnlessPressed",
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "rust-analyzer.hover.actions.implementations.enable": false,
+    "rust-analyzer.inlayHints.chainingHints.enable": false,
+    "rust-analyzer.inlayHints.closureReturnTypeHints.enable": true,
+    "python.defaultInterpreterPath": "/bin/python3",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.automationProfile.linux": {
+        "path": "/bin/bash"
+    },
 }
